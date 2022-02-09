@@ -1,3 +1,6 @@
 # ignores all object files and executables that may be generated when compiling
 *.o
 *.x
+
+*.pdf
+*.png

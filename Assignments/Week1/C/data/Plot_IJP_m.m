@@ -76,7 +76,7 @@ legend1 = legend( axes1, 'show' );
 set( legend1, 'Location', 'northwest', 'FontSize', 18) ;
 
 % Uncomment if you want to create a pdf for the graph
-% print( 'Plot_IJP_Timing.pdf', '-dpdf' );
+print( 'Plot_IJP_Timing.pdf', '-dpdf' );
 %% Plotting performance (rate of computation)
 % We will often examine the rate at which Gemm_IJP.c  compute rather than the 
 % time required for completing the computation.
@@ -133,5 +133,5 @@ legend2 = legend( axes2, 'show' );
 set( legend2, 'Location', 'northwest', 'FontSize', 18) ;
 
 % Uncomment if you want to create a pdf for the graph
-% print( 'Plot_IJP_GFLOPS.pdf', '-dpdf' );
+print( 'Plot_IJP_GFLOPS.pdf', '-dpdf' );
 %%
